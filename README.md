@@ -16,7 +16,25 @@ For storage of data a database structure was designed on the Google Firebase pla
 A FEW SCREENSHOTS OF THE APP:
 
 Home Page:
-
-About Page:
+<img src="Screenshot_20200323-093458_Corona Survey](https://user-images.githubusercontent.com/35567444/103440140-32a6c780-4c69-11eb-8c4c-ac4cfae4172a.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440143-35a1b800-4c69-11eb-93d6-1999db5fb38c.jpg" width="300" height="621">
 
 Questionarre Pages:
+<img src="https://user-images.githubusercontent.com/35567444/103440234-e14b0800-4c69-11eb-8724-de2d9dd7a742.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440235-e4de8f00-4c69-11eb-8e89-1b78d5f63aa8.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440236-e60fbc00-4c69-11eb-8790-6704fefba883.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440237-e6a85280-4c69-11eb-9e6d-2f95c6e78e89.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440238-e6a85280-4c69-11eb-9f17-65d573f0aef9.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440239-e740e900-4c69-11eb-9895-a2f74ac6b1bf.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440241-e740e900-4c69-11eb-9e6d-0b4ef1b67cfe.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440242-e7d97f80-4c69-11eb-9797-48ee842e71df.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440243-e8721600-4c69-11eb-9712-04bfd2ed39f8.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440244-e90aac80-4c69-11eb-9272-d1608cdfe6d2.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440246-e90aac80-4c69-11eb-8679-19c62f16df37.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440248-e9a34300-4c69-11eb-898b-8754dde13a6d.jpg" width="300" height="621">
+<img src="ttps://user-images.githubusercontent.com/35567444/103440249-e9a34300-4c69-11eb-9001-f627f1abe4d3.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440251-ea3bd980-4c69-11eb-99ed-77275fa29c80.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440254-ed36ca00-4c69-11eb-9acd-6174a34a6c59.jpg" width="300" height="621">
+
+About Page:
+<img src="https://user-images.githubusercontent.com/35567444/103440316-73eba700-4c6a-11eb-985e-93b9fecc203b.jpg" width="300" height="621">
