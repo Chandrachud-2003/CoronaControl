@@ -16,7 +16,7 @@ For storage of data a database structure was designed on the Google Firebase pla
 A FEW SCREENSHOTS OF THE APP:
 
 Home Page:
-<img src="Screenshot_20200323-093458_Corona Survey](https://user-images.githubusercontent.com/35567444/103440140-32a6c780-4c69-11eb-8c4c-ac4cfae4172a.jpg" width="300" height="621">
+<img src="https://user-images.githubusercontent.com/35567444/103440140-32a6c780-4c69-11eb-8c4c-ac4cfae4172a.jpg" width="300" height="621">
 <img src="https://user-images.githubusercontent.com/35567444/103440143-35a1b800-4c69-11eb-93d6-1999db5fb38c.jpg" width="300" height="621">
 
 Questionarre Pages:
