@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_layout"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    android:layout_margin="7dp"
+    tools:context="com.cmg.covid19app.idFragment">
+
+    <TextView
+        android:id="@+id/aadharText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/aadhar_card_number_text"
+
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/aadharInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:hint="@string/aadhar_hint"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/voterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/voter_id_text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/voterInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:hint="@string/voterid_hint"/>
+
+    <TextView
+        android:id="@+id/driverText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/license_text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/driverInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="30dp"
+        android:hint="@string/license_hint" />
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    android:background="@drawable/rounded_layout"
+    tools:context="com.cmg.covid19app.question9">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/questionNumber9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        android:text="@string/question_9"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ques8_text"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/q9_text"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/optionGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="15sp">
+
+        <RadioButton
+            android:id="@+id/yesButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingStart="5sp"
+            android:textStyle="bold"
+            android:paddingBottom="2sp"
+            android:text="@string/yes_text"
+            android:textSize="18sp"  />
+
+        <RadioButton
+            android:id="@+id/noButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/no_text"
+            android:textSize="18sp"  />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/occupationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:paddingTop="10dp"
+        android:visibility="visible">
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/hospitalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:textOff="@string/hospital_text"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:textOn="@string/hospital_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet" />
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/airportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:textStyle="bold"
+            android:textOff="@string/airport_text"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textOn="@string/airport_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet"/>
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/shipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_gravity="center"
+            android:layout_marginStart="20sp"
+            android:textOff="@string/ship_port"
+            android:textStyle="bold"
+            android:textOn="@string/ship_port"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet">
+
+
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/occupationLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:paddingTop="12dp"
+        android:visibility="visible">
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/publicButton"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="10sp"
+            android:textOff="@string/public_services"
+            android:textOn="@string/public_services"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

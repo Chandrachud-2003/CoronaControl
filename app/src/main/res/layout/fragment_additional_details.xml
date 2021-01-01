@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_layout"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    android:orientation="vertical"
+    tools:context="com.cmg.covid19app.additionalDetails"
+
+
+    >
+
+    <TextView
+        android:id="@+id/questionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="10sp"
+        android:text="@string/question_10"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/additionalText"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/additional_text"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+
+        android:id="@+id/additonalInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="@string/additional_hint"
+        android:textSize="14sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        />
+
+</LinearLayout>

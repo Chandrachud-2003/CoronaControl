@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_layout"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    tools:context="com.cmg.covid19app.question1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/questionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="7sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        android:text="@string/question_1"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/ques1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="7sp"
+        android:text="@string/q1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <RadioGroup
+        android:id="@+id/optionGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="15sp">
+
+        <RadioButton
+            android:id="@+id/yesButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="5sp"
+            android:paddingBottom="2sp"
+            android:text="@string/yes_text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <RadioButton
+            android:id="@+id/noButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingLeft="5sp"
+            android:paddingTop="5sp"
+            android:textColor="@color/black"
+            android:text="@string/no_text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/symptomLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:paddingTop="5dp"
+        android:visibility="gone">
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/coldButton"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:textOff="@string/cold_text"
+            android:textOn="@string/cold_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet">
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/feverButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:textOff="@string/fever_text"
+            android:textOn="@string/fever_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet"
+
+            >
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/diarrheaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:textOff="@string/diarrhea_text"
+            android:textOn="@string/diarrhea_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet">
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/symptomLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:paddingTop="10dp"
+        android:visibility="gone">
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/breathingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:textOff="@string/breathing_difficulty_text"
+            android:textOn="@string/breathing_difficulty_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet" />
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/soreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:textOff="@string/sore_throat_text"
+            android:textOn="@string/sore_throat_text"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet">
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "416783551058",
+    "firebase_url": "https://corona-taskforce.firebaseio.com",
+    "project_id": "corona-taskforce",
+    "storage_bucket": "corona-taskforce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416783551058:android:8670ac65fb9c205ff2ad8b",
+        "android_client_info": {
+          "package_name": "com.cmg.covid19app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416783551058-5j297qia23sn9t12ufgesjd6qc97qmga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dnalife.coronaapp",
+            "certificate_hash": "af5ef723bca3e177fc5f6ce64dfdb5b81305b2c8"
+          }
+        },
+        {
+          "client_id": "416783551058-cnanff8lrc9tvva1cc8v2211k4jv415m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLxWzOpYo2FvA4Sx0MDnjKrPRxNuDQpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416783551058-cnanff8lrc9tvva1cc8v2211k4jv415m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

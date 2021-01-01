@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">Corona Survey</string>
+
+    <string-array name="Wards">
+        <item>Kempegowda</item>
+        <item>Chowdeshwari</item>
+        <item>Attur</item>
+        <item>Yelahanka Satellite Town</item>
+        <item>Jakkur</item>
+        <item>Thanisandra</item>
+        <item>Byatarayanapura</item>
+        <item>Kodigehalli</item>
+        <item>Vidyaranyapura</item>
+        <item>Doddabommasandra</item>
+        <item>Kuvempu Nagar</item>
+        <item>Shettyhalli</item>
+        <item>Mallasandra</item>
+        <item>Bagalagunte</item>
+        <item>T-Dasarahalli	</item>
+        <item>Jalahalli</item>
+        <item>J.P.Park</item>
+        <item>Radhakrishna Temple</item>
+        <item>Sanjay Nagar</item>
+        <item>Ganga Nagar</item>
+        <item>Hebbal</item>
+        <item>Vishwanathnagenahalli</item>
+        <item>Nagavara</item>
+        <item>HBR Layout</item>
+        <item>Horamavu</item>
+        <item>Ramamurthy Nagar</item>
+        <item>Banaswadi</item>
+        <item>Kammanahalli</item>
+        <item>Kacharakanahalli</item>
+        <item>Kadugondanahalli</item>
+        <item>Kushal Nagar</item>
+        <item>Kavalbyrasandra</item>
+        <item>Manorayanapalya</item>
+        <item>Gangenahalli</item>
+        <item>Aramane Nagar</item>
+        <item>Mathikere</item>
+        <item>Yeshwanthpur</item>
+        <item>H.M.T</item>
+        <item>Chokkasandra</item>
+        <item>Dodda Bidarkallu</item>
+        <item>Peenya Industrial Area</item>
+        <item>Lakshmidevi Nagar</item>
+        <item>Nandini Layout</item>
+        <item>Marappana Palya</item>
+        <item>Malleshwaram</item>
+        <item>Jayachamarajendra Nagar</item>
+        <item>Devarajeevanahalli</item>
+        <item>Muneshwara Nagar</item>
+        <item>Lingarajapuram</item>
+        <item>Benniganahalli</item>
+        <item>Vijanapura</item>
+        <item>K.R.Puram</item>
+        <item>Basavanapura</item>
+        <item>Hoodi</item>
+        <item>Devasandra</item>
+        <item>A.Narayanapura</item>
+        <item>C.V.Raman Nagar</item>
+        <item>Hosathippasandra</item>
+        <item>Maruthiseva Nagar</item>
+        <item>Sagayapuram</item>
+        <item>S.K.Garden</item>
+        <item>Ramaswamy Palya</item>
+        <item>Jayamahal</item>
+        <item>Rajamahal</item>
+        <item>Kadumalleshwara</item>
+        <item>Subramanya Nagar</item>
+        <item>Nagapura</item>
+        <item>Mahalakshmipuram</item>
+        <item>Laggere</item>
+        <item>Rajagopala Nagar</item>
+        <item>Hegganahalli</item>
+        <item>Herohalli</item>
+        <item>Kottigepalya</item>
+        <item>Shakthiganapathi Nagar</item>
+        <item>Shankaramata</item>
+        <item>Gayathri Nagar</item>
+        <item>Dattathreya Temple</item>
+        <item>Pulikeshi Nagar</item>
+        <item>Sarvagna Nagar</item>
+        <item>Hoysala Nagar	</item>
+        <item>Vignana Nagar	</item>
+        <item>Garudacharpalya</item>
+        <item>Kadugudi</item>
+        <item>Hagadooru</item>
+        <item>Doddanekkundi</item>
+        <item>Marathalli</item>
+        <item>HAL Airport</item>
+        <item>Jeevanbhima Nagar</item>
+        <item>Jogupalya</item>
+        <item>Ulsoor</item>
+        <item>Bharathi Nagar</item>
+        <item>Shivaji Nagar</item>
+        <item>Vasanth Nagar</item>
+        <item>Gandhi Nagar</item>
+        <item>Subhash Nagar</item>
+        <item>Okalipuram</item>
+        <item>Dayananda Nagar</item>
+        <item>Prakash Nagar</item>
+        <item>Rajaji Nagar	</item>
+        <item>Basaveshwara Nagar</item>
+        <item>Kamakshipalya</item>
+        <item>Vrushabhavathi</item>
+        <item>Kaveripura</item>
+        <item>Govindraja Nagara</item>
+        <item>Agrahara Dasarahalli</item>
+        <item>Dr.Rajkumar Ward</item>
+        <item>Shiva Nagar</item>
+        <item>Sri Rammandira</item>
+        <item>Chikpete</item>
+        <item>Sampangiram Nagar</item>
+        <item>Shanthala Nagar</item>
+        <item>Domlur</item>
+        <item>Konena Agrahara</item>
+        <item>Agaram</item>
+        <item>Vannarpet</item>
+        <item>Neelasandra</item>
+        <item>Shanthi Nagar	</item>
+        <item>Sudam Nagar</item>
+        <item>Dharmarayaswamy Temple Ward</item>
+        <item>Cottonpet</item>
+        <item>Binnipet</item>
+        <item>Kempapura Agrahara</item>
+        <item>Vijay Nagar</item>
+        <item>Hosahalli</item>
+        <item>Marenahalli</item>
+        <item>Maruthi Mandira Ward</item>
+        <item>Moodalapalya</item>
+        <item>Nagarabhavi</item>
+        <item>Jnanabharathi Ward</item>
+        <item>Ullalu</item>
+        <item>Nayandanahalli</item>
+        <item>Attiguppe</item>
+        <item>Hampi Nagar</item>
+        <item>Bapuji Nagar</item>
+        <item>Padarayanapura</item>
+        <item>Jagareevanram Nagar</item>
+        <item>Rayapuram</item>
+        <item>Chalavadipalya</item>
+        <item>K.R.Market</item>
+        <item>Chamrajpet</item>
+        <item>Azad Nagar</item>
+        <item>Sunkenahalli</item>
+        <item>Visvesvarapuram</item>
+        <item>Siddapura</item>
+        <item>Hombegowda Nagar</item>
+        <item>Lakkasandra</item>
+        <item>Adugodi</item>
+        <item>Ejipura</item>
+        <item>Varthur</item>
+        <item>Bellandur</item>
+        <item>Koramangala</item>
+        <item>Sudduguntepalya</item>
+        <item>Jayangar</item>
+        <item>Basavanagudi</item>
+        <item>Hanumantha Nagar</item>
+        <item>Sri Nagar</item>
+        <item>Gali Anjaneya Swamy Temple Ward</item>
+        <item>Deepanjali Nagar</item>
+        <item>Kengeri</item>
+        <item>Rajarajeshwari Nagar</item>
+        <item>Hosakerehalli</item>
+        <item>Giri Nagar</item>
+        <item>Katriguppe</item>
+        <item>Vidyapeetha</item>
+        <item>Ganeshmandira Ward</item>
+        <item>Karisandra</item>
+        <item>Yadiyuru</item>
+        <item>Pattabhiram Nagar</item>
+        <item>Byrasandra</item>
+        <item>Jayanagar East</item>
+        <item>Gurappanapalya</item>
+        <item>Madiwala</item>
+        <item>Jakkasandra</item>
+        <item>HSR Layout</item>
+        <item>Bommanahalli</item>
+        <item>BTM Layout</item>
+        <item>J.P.Nagar</item>
+        <item>Sarakki</item>
+        <item>Shakambari Nagar</item>
+        <item>Banashankari Temple Ward</item>
+        <item>Kumaraswamy Layout</item>
+        <item>Padmanabha Nagar</item>
+        <item>Chikkalasandra</item>
+        <item>Uttarahalli</item>
+        <item>Yelachenahalli</item>
+        <item>Jaraganahalli</item>
+        <item>Puttenahalli</item>
+        <item>Bilekahalli</item>
+        <item>Hongasandra</item>
+        <item>Mangammanapalya</item>
+        <item>Singasandra</item>
+        <item>Begur</item>
+        <item>Arakere</item>
+        <item>Gottigere</item>
+        <item>Konanakunte</item>
+        <item>Anjanapur</item>
+        <item>Vasanthapura</item>
+        <item>Hemmigepura</item>
+
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="q1">Did you have fever, cold, sore throat, cough, diarrhea or breathing difficulty since past 30 days?</string>
+    <string name="q2">Does anyone in your family, or co-workers / friends have similar complaints?</string>
+    <string name="q3">Did you have guests at home in the past 30 days? If yes, please specify country and location:</string>
+    <string name="welcomeText">Welcome to the Covid-19   Survey</string>
+    <string name="description1">In order to prevent wide spread of Corona virus government has already taken steps through quarantining suspected or infected people across the country apart from restricting mass gathering at public places, schools are also closed to minimize the wide spread of the disease.   </string>
+    <string name="description2">There is no data available as on now from home front to     identify and prevent the possibility of corona infection. When     the situation goes beyond control house to     house data collection will be undertaken.</string>
+    <string name="securityText1">Your Information Is Secure</string>
+    <string name="securityText2">This Data will be accessed only by authorized personnel</string>
+    <string name="surveyInfo2">This survey consists of 9 questions,  and takes approximately 8 min</string>
+    <string name="basicInfo1">Basic Information</string>
+    <string name="basicInfo2">This section consists of 5 questions, and takes approximately 6 min</string>
+    <string name="success_text">Please wait while we  upload your survey</string>
+    <string name="developerText">Developer Name:   Chandrachud M Gowda</string>
+    <string name="infoPara1">Foundation for Quality India (FQI) is a Non-Profit Organization dedicated towards social awareness and preventing spread of Corona Virus Disease 2019 (COVID-19). The Corona Control App (CC-App) released to public was designed to rapidly capture the community health information to prevent further Corona spread.</string>
+    <string name="world_cases_text">World cases</string>
+    <string name="confirmed_cases_text">Confirmed cases</string>
+    <string name="recovered_text">Recovered</string>
+    <string name="india_text">India</string>
+    <string name="number_of_children_text">Number of Children</string>
+    <string name="number_of_teenagers_text">Number of Teenagers</string>
+    <string name="number_of_adults_text">Number of Adults</string>
+    <string name="number_of_seniors_text">Number of Seniors</string>
+    <string name="address_hint">Enter your address</string>
+    <string name="address_text">Address</string>
+    <string name="phone_number_text">Phone Number</string>
+    <string name="aadhar_hint">Enter your Aadhar card number</string>
+    <string name="voter_id_text">Voter ID</string>
+    <string name="voterid_hint">Enter your voter\'s ID (optonal)</string>
+    <string name="license_text">Driver\'s License</string>
+    <string name="license_hint">Enter your driver\'s license number (Optional)</string>
+    <string name="question_3">Question 3</string>
+    <string name="question_1">Question 1</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="cold_text">Cold</string>
+    <string name="fever_text">Fever</string>
+    <string name="diarrhea_text">Diarrhea</string>
+    <string name="breathing_difficulty_text">Breathing Difficulty</string>
+    <string name="sore_throat_text">Sore Throat</string>
+    <string name="question_2">Question 2</string>
+    <string name="international_text">International</string>
+    <string name="indiaButton_text">India</string>
+    <string name="place_text">Specify the place from which the guest came</string>
+    <string name="developer_text">Developer</string>
+    <string name="fqi_1">Supported by FQI</string>
+    <string name="fqi_2">foundation for quality india</string>
+    <string name="question_10">Question 10</string>
+    <string name="additional_text">Please include any additional details which you feel are necessary</string>
+    <string name="additional_hint">Type details here (optional)</string>
+    <string name="family_info_text">Family Info</string>
+    <string name="lastName_hint">Enter your last name</string>
+    <string name="firstName_hint">Enter your first name</string>
+    <string name="first_name_text">First Name</string>
+    <string name="phone_hint">+91 </string>
+    <string name="place_2">Specify the place to which you travelled</string>
+    <string name="question4_text">Did you travel anywhere in the past one month? if yes, please specify country and location?</string>
+    <string name="question_4">Question 4</string>
+    <string name="q5_text">Did you or your family members visit public places or use public transport occasionally in the past 3 weeks?</string>
+    <string name="question_5">Question 5</string>
+    <string name="detailText">Details of Visit</string>
+    <string name="detail_hint">Enter the hospital/clinic Name</string>
+    <string name="question_6">Question 6</string>
+    <string name="q7_text">Does your family use the services of maids, drivers, helpers, etc.?</string>
+    <string name="question_7">Question 7</string>
+    <string name="outside_text">Outside</string>
+    <string name="home_text">Home</string>
+    <string name="q8_text">Does your family generally make food at home or do you generally order from restaurants / caterers ?</string>
+    <string name="question_8">Question 8</string>
+    <string name="public_services">Public Services</string>
+    <string name="ship_port">Ship / Port</string>
+    <string name="airport_text">Airport</string>
+    <string name="hospital_text">Hospital</string>
+    <string name="q9_text">Have you recently interacted with anyone who works at Hospitals, Airports, Ships/Ports, Public transportation services, etc., where they may have come into contact with coronavirus infected individuals?</string>
+    <string name="question_9">Question 9</string>
+    <string name="welcome_sub2">Future updates will include \nall other states and districts of India, \nso stay updated !</string>
+    <string name="exit_text">EXIT</string>
+    <string name="welcome2">This app was initially designed for\n residents of Bengaluru, Karnataka.</string>
+    <string name="aadhar_card_number_text">Aadhar Card</string>
+    <string name="description3">This survey is dedicated towards comabatiing the Covid-19 outbreak, and assisting thhe government in assessing the public.</string>
+    <string name="developerName">chandrachud m gowda</string>
+    <string name="infoPara2">Currently, the FQI organization is focused on providing quality trainings in the field of diagnostic and healthcare in hospitals across the country and in several other countries.</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="q6_text">Have you visited any medical facility or hospital in the past 2 weeks? If yes, please specify hospital name and a short account of the visit?</string>
+    <string name="surveyInfo1">Ready to Start?</string>
+    <string name="next_text">NEXT</string>
+    <string name="go_text">LET\'S GO!</string>
+    <string name="fqi_helpLine">Covid-19 fqi help line</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+    <string name="website">website</string>
+    <string name="MOH_text">Ministry of health - help line</string>
+    <string name="startSurvey">Take the Family Care Survey</string>
+    <string name="got_it">GOT IT!</string>
+    <string name="verify_basic">The next section will be the Questionarre. You will not be able to return to your Basic information and make changes. Have you verified your details?</string>
+    <string name="no_2">No, I need to verify</string>
+    <string name="exit_text_2">The data you entered will be lost. Are you sure you want to exit the Survey?</string>
+    <string name="yes_2">Yes, I\'m sure</string>
+    <string name="languageButton_text">Language: English</string>
+    <string name="return_home">Return to home</string>
+    <string name="upload_success">Uploaded successfully</string>
+    <string name="submit">Submit</string>
+
+
+</resources>

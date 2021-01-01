@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    android:background="@drawable/rounded_layout"
+    tools:context="com.cmg.covid19app.question6">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/questionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        android:text="@string/question_6"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ques6_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/q6_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/optionGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="15sp">
+
+        <RadioButton
+            android:id="@+id/yesButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingStart="5sp"
+            android:textColor="@color/black"
+            android:paddingBottom="2sp"
+            android:textStyle="bold"
+            android:text="@string/yes_text"
+            android:textSize="18sp"  />
+
+        <RadioButton
+            android:id="@+id/noButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingStart="5sp"
+            android:paddingTop="5sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/no_text"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/hospitalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:ems="10"
+        android:hint="@string/detail_hint"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/detailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="10sp"
+        android:text="@string/detailText"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/detailInput"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:visibility="gone" />
+
+
+</LinearLayout>

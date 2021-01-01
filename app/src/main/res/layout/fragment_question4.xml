@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    android:background="@drawable/rounded_layout"
+    tools:context="com.cmg.covid19app.question4">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/questionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="7sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        android:text="@string/question_4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ques4_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/question4_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/optionGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="15sp">
+
+        <RadioButton
+            android:id="@+id/yesButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingStart="5sp"
+            android:textStyle="bold"
+            android:paddingBottom="2sp"
+            android:textColor="@color/black"
+            android:text="@string/yes_text"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/noButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingStart="5sp"
+
+            android:paddingTop="5sp"
+            android:text="@string/no_text"
+            android:textSize="18sp"  />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/placeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:paddingTop="5dp"
+        android:visibility="gone">
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/internationalButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textOff="@string/international_text"
+            android:textOn="@string/international_text"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet">
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:id="@+id/indiaButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textOff="@string/india_text"
+            android:textOn="@string/india_text"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            app:checkedColor="@color/darkViolet"
+            app:checkedTextColor="@color/white"
+            app:radius="5sp"
+            app:uncheckedColor="@color/darkViolet"
+
+            >
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/placeText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/place_2"
+        android:textSize="14sp"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:visibility="gone"
+
+        />
+
+    <Spinner
+        android:id="@+id/placeSpinner2"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="10dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

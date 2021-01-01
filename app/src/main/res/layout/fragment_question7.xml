@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="50dp"
+    android:background="@drawable/rounded_layout"
+    tools:context="com.cmg.covid19app.question7">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/questionNumber7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingStart="7sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="2sp"
+        android:text="@string/question_7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ques7_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/q7_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/optionGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="15sp"
+        android:paddingTop="13sp"
+        android:paddingBottom="15sp">
+
+        <RadioButton
+            android:id="@+id/yesButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingStart="5sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:paddingBottom="2sp"
+            android:text="@string/yes_text"
+            android:textSize="18sp"  />
+
+        <RadioButton
+            android:id="@+id/noButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="5sp"
+            android:textStyle="bold"
+            android:paddingTop="5sp"
+            android:textColor="@color/black"
+
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/no_text"
+            android:textSize="18sp"  />
+    </RadioGroup>
+
+</LinearLayout>

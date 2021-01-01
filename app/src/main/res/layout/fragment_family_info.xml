@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rounded_layout"
+    tools:context="com.cmg.covid19app.familyInfoFragment"
+    android:orientation="vertical"
+    android:layout_margin="7dp"
+    >
+
+    <TextView
+        android:id="@+id/familyInfoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/family_info_text"
+        android:textSize="22sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:id="@+id/childrenText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+
+        android:layout_marginTop="9dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/number_of_children_text"
+        android:textSize="19sp"
+
+        android:textStyle="bold" />
+
+    <com.marcinmoskala.arcseekbar.ArcSeekBar
+        android:id="@+id/childrenSeekBar"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:id="@+id/childrenNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/teenagerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/number_of_teenagers_text"
+        android:textSize="19sp"
+
+        android:textStyle="bold" />
+
+    <com.marcinmoskala.arcseekbar.ArcSeekBar
+        android:id="@+id/teenagerSeekBar"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:id="@+id/teenagerNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/adultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/number_of_adults_text"
+        android:textSize="19sp"
+
+        android:textStyle="bold" />
+
+    <com.marcinmoskala.arcseekbar.ArcSeekBar
+        android:id="@+id/adultSeekBar"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:id="@+id/adultNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/seniorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/number_of_seniors_text"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+
+        android:textStyle="bold" />
+
+    <com.marcinmoskala.arcseekbar.ArcSeekBar
+        android:id="@+id/seniorSeekBar"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <TextView
+        android:id="@+id/seniorNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
